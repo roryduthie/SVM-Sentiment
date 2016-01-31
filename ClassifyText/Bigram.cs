@@ -28,7 +28,7 @@ namespace ClassifyText
         public List<String> getNG(String sentence)
         {
             List<String> vocab = new List<String>();
-            for (int n = 1; n <= 2; n++) {
+            for (int n = 1; n <= 3; n++) {
                 foreach (String ngram in ngrams(n,sentence))
                 {
                    vocab.Add(ngram);
